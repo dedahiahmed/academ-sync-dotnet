@@ -13,10 +13,10 @@ namespace academ_sync_back.Models
         public string Title { get; set; }
 
         [Required]
-        public CourseType Type { get; set; } 
+        public string Type { get; set; } 
 
         [Required]
-        public Semester Semester { get; set; } 
+        public string Semester { get; set; } 
 
         [Required]
         public int TeacherId { get; set; }
