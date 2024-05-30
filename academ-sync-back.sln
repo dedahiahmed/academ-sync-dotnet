@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "academ-sync-back", "academ-sync-back.csproj", "{3A881D46-0A29-46F3-B32B-39C075CB7AD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A881D46-0A29-46F3-B32B-39C075CB7AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A881D46-0A29-46F3-B32B-39C075CB7AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A881D46-0A29-46F3-B32B-39C075CB7AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A881D46-0A29-46F3-B32B-39C075CB7AD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D24013A5-9095-4ADB-A1CC-0EA371259CC0}
+	EndGlobalSection
+EndGlobal

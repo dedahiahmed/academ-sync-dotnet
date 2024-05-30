@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\academ-sync-back.props" />
+</Project>
