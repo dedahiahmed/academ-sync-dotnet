@@ -39,5 +39,9 @@ namespace academ_sync_back.Repositories
             _dbContext.Users.Remove(user);
             await _dbContext.SaveChangesAsync();
         }
+        public async Task<bool> EmailExistsAsync(string email)
+        {
+            return await _dbContext.Users.AnyAsync(u => u.Email == email);
+        }
     }
 }

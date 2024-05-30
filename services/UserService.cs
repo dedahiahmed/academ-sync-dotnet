@@ -24,6 +24,12 @@ namespace academ_sync_back.services
 
         public async Task CreateUserAsync(User user)
         {
+            if (await _userRepository.EmailExistsAsync(user.Email))
+            {
+                throw new ArgumentException("Email already exists");
+            }
+
+
             await _userRepository.AddAsync(user);
         }
 

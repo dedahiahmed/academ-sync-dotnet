@@ -29,6 +29,7 @@ namespace academ_sync_back.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
+
         [Required]
         [UserRoleValidation]
         public string Role { get; set; }

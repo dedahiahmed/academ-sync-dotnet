@@ -3,99 +3,107 @@
   "WorkspaceRootPath": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|c:\\users\\dedah\\source\\repos\\academ-sync-back\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|c:\\users\\dedah\\source\\repos\\academ-sync-back\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|c:\\users\\dedah\\source\\repos\\academ-sync-back\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|c:\\users\\dedah\\source\\repos\\academ-sync-back\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Migrations\\20240530130542_UpdateUserRoleToString.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240530130542_UpdateUserRoleToString.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|c:\\users\\dedah\\source\\repos\\academ-sync-back\\mydbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:mydbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|c:\\users\\dedah\\source\\repos\\academ-sync-back\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|c:\\users\\dedah\\source\\repos\\academ-sync-back\\validations\\userrolevalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|C:\\Users\\dedah\\source\\repos\\academ-sync-back\\validations\\userrolevalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:validations\\userrolevalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|c:\\users\\dedah\\source\\repos\\academ-sync-back\\academ-sync-back.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:academ-sync-back.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|c:\\users\\dedah\\source\\repos\\academ-sync-back\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|C:\\Users\\dedah\\source\\repos\\academ-sync-back\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|c:\\users\\dedah\\source\\repos\\academ-sync-back\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|C:\\Users\\dedah\\source\\repos\\academ-sync-back\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|c:\\users\\dedah\\source\\repos\\academ-sync-back\\exceptions\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:exceptions\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|C:\\Users\\dedah\\source\\repos\\academ-sync-back\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|C:\\Users\\dedah\\source\\repos\\academ-sync-back\\academ-sync-back.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:academ-sync-back.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|C:\\Users\\dedah\\source\\repos\\academ-sync-back\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|C:\\Users\\dedah\\source\\repos\\academ-sync-back\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Migrations\\20240530134017_InitialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240530134017_InitialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|C:\\Users\\dedah\\source\\repos\\academ-sync-back\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|c:\\users\\dedah\\source\\repos\\academ-sync-back\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Migrations\\20240530133947_removeGetDateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240530133947_removeGetDateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|C:\\Users\\dedah\\source\\repos\\academ-sync-back\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Migrations\\20240530133816_removeGetDate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240530133816_removeGetDate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|C:\\Users\\dedah\\source\\repos\\academ-sync-back\\mydbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:mydbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|c:\\users\\dedah\\source\\repos\\academ-sync-back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|c:\\users\\dedah\\source\\repos\\academ-sync-back\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Migrations\\20240530133540_InitialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240530133540_InitialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|c:\\users\\dedah\\source\\repos\\academ-sync-back\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|c:\\users\\dedah\\source\\repos\\academ-sync-back\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|c:\\users\\dedah\\source\\repos\\academ-sync-back\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|c:\\users\\dedah\\source\\repos\\academ-sync-back\\enums\\coursetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:enums\\coursetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|c:\\users\\dedah\\source\\repos\\academ-sync-back\\enums\\semester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:enums\\semester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|c:\\users\\dedah\\source\\repos\\academ-sync-back\\migrations\\20240530120757_adduserrolecolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:migrations\\20240530120757_adduserrolecolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|c:\\users\\dedah\\source\\repos\\academ-sync-back\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|C:\\Users\\dedah\\source\\repos\\academ-sync-back\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Migrations\\20240530120003_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240530120003_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|C:\\Users\\dedah\\source\\repos\\academ-sync-back\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|c:\\users\\dedah\\source\\repos\\academ-sync-back\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|C:\\Users\\dedah\\source\\repos\\academ-sync-back\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|C:\\Users\\dedah\\source\\repos\\academ-sync-back\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|C:\\Users\\dedah\\source\\repos\\academ-sync-back\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|C:\\Users\\dedah\\source\\repos\\academ-sync-back\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|C:\\Users\\dedah\\source\\repos\\academ-sync-back\\enums\\coursetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:enums\\coursetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|C:\\Users\\dedah\\source\\repos\\academ-sync-back\\enums\\semester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:enums\\semester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|C:\\Users\\dedah\\source\\repos\\academ-sync-back\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|c:\\users\\dedah\\source\\repos\\academ-sync-back\\academ-sync-back.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|C:\\Users\\dedah\\source\\repos\\academ-sync-back\\academ-sync-back.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{3A881D46-0A29-46F3-B32B-39C075CB7AD0}|academ-sync-back.csproj|solutionrelative:academ-sync-back.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
@@ -106,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,85 +122,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20240530130542_UpdateUserRoleToString.cs",
-              "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Migrations\\20240530130542_UpdateUserRoleToString.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240530130542_UpdateUserRoleToString.cs",
-              "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Migrations\\20240530130542_UpdateUserRoleToString.cs",
-              "RelativeToolTip": "Migrations\\20240530130542_UpdateUserRoleToString.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\services\\UserService.cs",
+              "RelativeDocumentMoniker": "services\\UserService.cs",
+              "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\services\\UserService.cs",
+              "RelativeToolTip": "services\\UserService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAcwBgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T13:05:42.694Z",
+              "WhenOpened": "2024-05-30T12:36:34.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowCkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T12:45:56.884Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Repositories\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IUserRepository.cs",
               "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Repositories\\IUserRepository.cs",
               "RelativeToolTip": "Repositories\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T12:31:54.998Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Models\\Course.cs",
-              "RelativeDocumentMoniker": "Models\\Course.cs",
-              "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Models\\Course.cs",
-              "RelativeToolTip": "Models\\Course.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAgwA8AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T12:23:26.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "MyDbContext .cs",
-              "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\MyDbContext .cs",
-              "RelativeDocumentMoniker": "MyDbContext .cs",
-              "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\MyDbContext .cs",
-              "RelativeToolTip": "MyDbContext .cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA4wBsAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T11:51:30.343Z",
+              "Title": "academ-sync-back.csproj",
+              "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\academ-sync-back.csproj",
+              "RelativeDocumentMoniker": "academ-sync-back.csproj",
+              "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\academ-sync-back.csproj",
+              "RelativeToolTip": "academ-sync-back.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-30T12:35:00.903Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBUAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T12:32:17.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\services\\IUserService.cs",
               "RelativeDocumentMoniker": "services\\IUserService.cs",
@@ -205,33 +174,187 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\services\\UserService.cs",
-              "RelativeDocumentMoniker": "services\\UserService.cs",
-              "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\services\\UserService.cs",
-              "RelativeToolTip": "services\\UserService.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAADwvxkAAAAJAAAA",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA5wDsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T12:36:34.697Z",
+              "WhenOpened": "2024-05-30T12:45:56.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "UserRoleValidationAttribute.cs",
               "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\validations\\UserRoleValidationAttribute.cs",
               "RelativeDocumentMoniker": "validations\\UserRoleValidationAttribute.cs",
               "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\validations\\UserRoleValidationAttribute.cs",
               "RelativeToolTip": "validations\\UserRoleValidationAttribute.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T13:03:53.153Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\exceptions\\ErrorHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "exceptions\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\exceptions\\ErrorHandlingMiddleware.cs",
+              "RelativeToolTip": "exceptions\\ErrorHandlingMiddleware.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T13:56:46.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20240530134017_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Migrations\\20240530134017_InitialMigration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240530134017_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Migrations\\20240530134017_InitialMigration.cs",
+              "RelativeToolTip": "Migrations\\20240530134017_InitialMigration.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T13:40:17.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20240530133816_removeGetDate.cs",
+              "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Migrations\\20240530133816_removeGetDate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240530133816_removeGetDate.cs",
+              "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Migrations\\20240530133816_removeGetDate.cs",
+              "RelativeToolTip": "Migrations\\20240530133816_removeGetDate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T13:38:16.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Models\\Course.cs",
+              "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Models\\Course.cs",
+              "RelativeToolTip": "Models\\Course.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwA8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T12:23:26.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "Enums\\UserRole.cs",
+              "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Enums\\UserRole.cs",
+              "RelativeToolTip": "Enums\\UserRole.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T11:46:59.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAiwCEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T12:32:17.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MyDbContext .cs",
+              "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\MyDbContext .cs",
+              "RelativeDocumentMoniker": "MyDbContext .cs",
+              "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\MyDbContext .cs",
+              "RelativeToolTip": "MyDbContext .cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T11:51:30.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20240530133540_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Migrations\\20240530133540_InitialMigration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240530133540_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Migrations\\20240530133540_InitialMigration.cs",
+              "RelativeToolTip": "Migrations\\20240530133540_InitialMigration.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T13:35:40.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240530133947_removeGetDateuser.cs",
+              "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Migrations\\20240530133947_removeGetDateuser.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240530133947_removeGetDateuser.cs",
+              "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Migrations\\20240530133947_removeGetDateuser.cs",
+              "RelativeToolTip": "Migrations\\20240530133947_removeGetDateuser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T13:39:47.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-30T11:24:41.504Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T11:48:10.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T11:22:43.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
@@ -239,25 +362,11 @@
               "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T11:20:41.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T11:20:41.408Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T11:22:43.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "Teacher.cs",
               "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Models\\Teacher.cs",
               "RelativeDocumentMoniker": "Models\\Teacher.cs",
@@ -265,51 +374,11 @@
               "RelativeToolTip": "Models\\Teacher.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T12:15:45.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T12:15:45.711Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T11:48:10.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "academ-sync-back",
-              "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\academ-sync-back.csproj",
-              "RelativeDocumentMoniker": "academ-sync-back.csproj",
-              "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\academ-sync-back.csproj",
-              "RelativeToolTip": "academ-sync-back.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-30T12:35:00.903Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserRole.cs",
-              "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Enums\\UserRole.cs",
-              "RelativeDocumentMoniker": "Enums\\UserRole.cs",
-              "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Enums\\UserRole.cs",
-              "RelativeToolTip": "Enums\\UserRole.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T11:46:59.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "WeatherForecast.cs",
@@ -317,12 +386,11 @@
               "RelativeToolTip": "WeatherForecast.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T11:22:47.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T11:22:47.027Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Models\\Student.cs",
               "RelativeDocumentMoniker": "Models\\Student.cs",
@@ -330,12 +398,11 @@
               "RelativeToolTip": "Models\\Student.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T12:12:15.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T12:12:15.886Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "CourseType.cs",
               "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Enums\\CourseType.cs",
               "RelativeDocumentMoniker": "Enums\\CourseType.cs",
@@ -343,12 +410,11 @@
               "RelativeToolTip": "Enums\\CourseType.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T12:11:04.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T12:11:04.946Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "Semester.cs",
               "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Enums\\Semester.cs",
               "RelativeDocumentMoniker": "Enums\\Semester.cs",
@@ -356,51 +422,11 @@
               "RelativeToolTip": "Enums\\Semester.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T12:10:19.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T12:10:19.586Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "20240530120757_AddUserRoleColumn.cs",
-              "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Migrations\\20240530120757_AddUserRoleColumn.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240530120757_AddUserRoleColumn.cs",
-              "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Migrations\\20240530120757_AddUserRoleColumn.cs",
-              "RelativeToolTip": "Migrations\\20240530120757_AddUserRoleColumn.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T12:07:57.723Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "20240530120003_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Migrations\\20240530120003_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240530120003_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Migrations\\20240530120003_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20240530120003_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T12:00:03.512Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAB9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-30T11:24:41.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -408,12 +434,11 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-30T11:24:22.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T11:24:22.31Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "academ-sync-back",
               "DocumentMoniker": "C:\\Users\\dedah\\source\\repos\\academ-sync-back\\academ-sync-back.csproj",
               "RelativeDocumentMoniker": "academ-sync-back.csproj",

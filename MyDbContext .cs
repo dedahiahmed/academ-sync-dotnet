@@ -18,8 +18,9 @@ namespace academ_sync_back
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<User>()
-                .Property(u => u.CreatedAt)
-                .HasDefaultValueSql("GETDATE()");
+       .Property(u => u.CreatedAt)
+       .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
 
             modelBuilder.Entity<User>()
                 .HasIndex(u => u.Email)

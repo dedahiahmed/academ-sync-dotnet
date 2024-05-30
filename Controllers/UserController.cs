@@ -36,8 +36,27 @@ namespace academ_sync_back.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateUser([FromBody] User user)
         {
-            await _userService.CreateUserAsync(user);
-            return CreatedAtAction(nameof(GetUserById), new { id = user.Id }, user);
+            try
+            {
+                await _userService.CreateUserAsync(user);
+                return Ok();
+            }
+            catch (ArgumentException ex)
+            {
+                // Handle the specific exception thrown by CreateUserAsync
+                if (ex.Message == "Email already exists")
+                {
+                    return new JsonResult(new { message = ex.Message });
+                }
+
+                // Handle other exceptions
+                return BadRequest(new { message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                // Handle any other exceptions
+                return StatusCode(StatusCodes.Status500InternalServerError, new { message = ex.Message });
+            }
         }
 
         [HttpPut("{id}")]
