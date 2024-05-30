@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("academ-sync-back")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9a969c7c0a516e86cb20be6f06b1635cdecfcb9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dcb503a69f02503a56cfbe1feebdb8e35e9f52ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("academ-sync-back")]
 [assembly: System.Reflection.AssemblyTitleAttribute("academ-sync-back")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

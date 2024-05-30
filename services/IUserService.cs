@@ -9,5 +9,6 @@ namespace academ_sync_back.services
         Task CreateUserAsync(User user);
         Task UpdateUserAsync(User user);
         Task DeleteUserAsync(int id);
+        Task<string> AuthenticateAsync(string username, string password);
     }
 }

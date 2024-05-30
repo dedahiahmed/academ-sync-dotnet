@@ -1,5 +1,6 @@
 ﻿using academ_sync_back.Models;
 using academ_sync_back.services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace academ_sync_back.Controllers
@@ -69,7 +70,7 @@ namespace academ_sync_back.Controllers
             await _userService.UpdateUserAsync(user);
             return NoContent();
         }
-
+        [Authorize(Roles = "ADMIN")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteUser(int id)
         {

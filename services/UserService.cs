@@ -6,10 +6,22 @@ namespace academ_sync_back.services
     public class UserService : IUserService
     {
         private readonly IUserRepository _userRepository;
+        private readonly JwtService _jwtService;
 
-        public UserService(IUserRepository userRepository)
+        public UserService(IUserRepository userRepository, JwtService jwtService)
         {
             _userRepository = userRepository;
+            _jwtService = jwtService;
+        }
+        public async Task<string> AuthenticateAsync(string email, string password)
+        {
+            var user = await _userRepository.GetByEmailAsync(email);
+            if (user == null || !_jwtService.VerifyPassword(password, user.Password))
+            {
+                return null;
+            }
+
+            return _jwtService.GenerateToken(user.Id, user.Email, user.Role);
         }
 
         public async Task<User> GetUserByIdAsync(int id)
@@ -29,7 +41,7 @@ namespace academ_sync_back.services
                 throw new ArgumentException("Email already exists");
             }
 
-
+            user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
             await _userRepository.AddAsync(user);
         }
 
@@ -41,7 +53,7 @@ namespace academ_sync_back.services
         public async Task DeleteUserAsync(int id)
         {
             var user = await _userRepository.GetByIdAsync(id);
-            if (user != null)
+            if (user != null)   
             {
                 await _userRepository.DeleteAsync(user);
             }

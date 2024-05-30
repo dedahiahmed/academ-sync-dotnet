@@ -10,5 +10,6 @@ namespace academ_sync_back.Repositories
         Task UpdateAsync(User user);
         Task DeleteAsync(User user);
         Task<bool> EmailExistsAsync(string email);
+        Task<User> GetByEmailAsync(string email);
     }
 }

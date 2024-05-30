@@ -33,7 +33,10 @@ namespace academ_sync_back.Repositories
             _dbContext.Users.Update(user);
             await _dbContext.SaveChangesAsync();
         }
-
+        public async Task<User> GetByEmailAsync(string email)
+        {
+            return await _dbContext.Users.FirstOrDefaultAsync(u => u.Email == email);
+        }
         public async Task DeleteAsync(User user)
         {
             _dbContext.Users.Remove(user);
