@@ -2,6 +2,7 @@
 using academ_sync_back.services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace academ_sync_back.Controllers
@@ -51,11 +52,39 @@ namespace academ_sync_back.Controllers
             }
             return Ok(new { token });
         }
+
+        [Authorize]
+        [HttpGet("me")]
+        public IActionResult GetMe()
+        {
+            var claimsIdentity = User.Identity as ClaimsIdentity;
+            if (claimsIdentity == null)
+            {
+                return Unauthorized();
+            }
+
+            var claims = claimsIdentity.Claims.ToList();
+            var userIdClaim = claims.Count >= 3 ? claims[2].Value : null;
+            var emailClaim = claimsIdentity.FindFirst(ClaimTypes.Email)?.Value;
+            var roleClaim = claimsIdentity.FindFirst(ClaimTypes.Role)?.Value;
+
+            if (userIdClaim == null || emailClaim == null || roleClaim == null)
+            {
+                return Unauthorized();
+            }
+
+            return Ok(new
+            {
+                id = userIdClaim,
+                email = emailClaim,
+                role = roleClaim
+            });
+        }
+    }
+        public class LoginRequest
+        {
+            public string Username { get; set; }
+            public string Password { get; set; }
+        }
     }
 
-    public class LoginRequest
-    {
-        public string Username { get; set; }
-        public string Password { get; set; }
-    }
-}
