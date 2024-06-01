@@ -1,4 +1,5 @@
 ﻿using academ_sync_back.Models;
+using academ_sync_back.requests;
 using academ_sync_back.services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -81,10 +82,6 @@ namespace academ_sync_back.Controllers
             });
         }
     }
-        public class LoginRequest
-        {
-            public string Username { get; set; }
-            public string Password { get; set; }
-        }
+       
     }
 
