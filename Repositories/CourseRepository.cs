@@ -16,6 +16,10 @@ namespace academ_sync_back.Repositories
         {
             return await _dbContext.Courses.FindAsync(id);
         }
+        public async Task<List<Course>> GetCoursesByTeacherIdAsync(int teacherId)
+        {
+            return await _dbContext.Courses.Where(c => c.TeacherId == teacherId).ToListAsync();
+        }
 
         public async Task<List<Course>> GetAllAsync()
         {

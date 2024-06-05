@@ -4,7 +4,7 @@ namespace academ_sync_back.Repositories
 {
     public interface ICourseRepository
     {
-
+        Task<List<Course>> GetCoursesByTeacherIdAsync(int teacherId);
         Task<Course> GetByIdAsync(int id);
         Task<List<Course>> GetAllAsync();
         Task AddAsync(Course course);

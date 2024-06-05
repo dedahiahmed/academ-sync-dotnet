@@ -1,6 +1,7 @@
 ﻿using academ_sync_back.Models;
 using academ_sync_back.Repositories;
 using academ_sync_back.requests;
+using System.Security.Claims;
 
 namespace academ_sync_back.services
 {
@@ -9,11 +10,12 @@ namespace academ_sync_back.services
         private readonly ICourseRepository _courseRepository;
 
         private readonly ITeacherRepository _teacherRepository;
-
-        public CourseService(ICourseRepository courseRepository, ITeacherRepository teacherRepository)
+        private readonly ILogger<CourseService> _logger;
+        public CourseService(ICourseRepository courseRepository, ITeacherRepository teacherRepository, ILogger<CourseService> logger)
         {
             _courseRepository = courseRepository;
             _teacherRepository = teacherRepository;
+            _logger = logger;
         }
 
         public async Task<Course> GetCourseByIdAsync(int id)
@@ -21,8 +23,23 @@ namespace academ_sync_back.services
             return await _courseRepository.GetByIdAsync(id);
         }
 
-        public async Task<List<Course>> GetAllCoursesAsync()
+        public async Task<List<Course>> GetAllCoursesAsync(ClaimsPrincipal user)
         {
+            var claims = user.Claims.ToList();
+            var userIdClaim = claims.Count >= 3 ? claims[2].Value : null;
+            var roleClaim = user.FindFirst(ClaimTypes.Role)?.Value;
+
+            // Log the userIdClaim and roleClaim values
+            _logger.LogInformation("UserIdClaim: {UserIdClaim}", userIdClaim);
+            _logger.LogInformation("RoleClaim: {RoleClaim}", roleClaim);
+
+            if (roleClaim == "TEACHER" && int.TryParse(userIdClaim, out int teacherId))
+            {
+                // Return only the courses where TeacherId matches the id in the token
+                return await _courseRepository.GetCoursesByTeacherIdAsync(teacherId);
+            }
+
+            // Return all courses for ADMIN and STUDENT
             return await _courseRepository.GetAllAsync();
         }
 

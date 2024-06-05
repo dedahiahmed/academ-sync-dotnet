@@ -1,6 +1,7 @@
 ﻿using academ_sync_back.Models;
 using academ_sync_back.requests;
 using academ_sync_back.services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace academ_sync_back.Controllers
@@ -28,9 +29,11 @@ namespace academ_sync_back.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "ADMIN, STUDENT, TEACHER")]
         public async Task<IActionResult> GetAllCourses()
         {
-            var courses = await _courseService.GetAllCoursesAsync();
+            var user = User;
+            var courses = await _courseService.GetAllCoursesAsync(user);
             return Ok(courses);
         }
 
