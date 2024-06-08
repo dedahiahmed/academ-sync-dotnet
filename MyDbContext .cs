@@ -12,7 +12,7 @@ namespace academ_sync_back
         public DbSet<Student> Students { get; set; }
         public DbSet<Teacher> Teachers { get; set; }
         public DbSet<Course> Courses { get; set; }
-
+   
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -50,7 +50,10 @@ namespace academ_sync_back
                 .Entity<Course>()
                 .Property(c => c.Semester)
                 .HasConversion<string>();
-        }
 
+           
+        }
     }
+
+    
 }

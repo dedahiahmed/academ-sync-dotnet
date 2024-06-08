@@ -13,8 +13,8 @@ using academ_sync_back;
 namespace academ_sync_back.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20240530134017_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20240606114005_initialCreate")]
+    partial class initialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

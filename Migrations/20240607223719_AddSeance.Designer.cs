@@ -13,8 +13,8 @@ using academ_sync_back;
 namespace academ_sync_back.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20240530183105_EnumToString")]
-    partial class EnumToString
+    [Migration("20240607223719_AddSeance")]
+    partial class AddSeance
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -60,6 +60,39 @@ namespace academ_sync_back.Migrations
                     b.ToTable("Courses");
                 });
 
+            modelBuilder.Entity("academ_sync_back.Models.Seance", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<double>("Avancement")
+                        .HasColumnType("double precision");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp with time zone")
+                        .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                    b.Property<int>("NumberOfHours")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("TeacherId")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TeacherId");
+
+                    b.ToTable("Seances");
+                });
+
             modelBuilder.Entity("academ_sync_back.Models.Student", b =>
                 {
                     b.Property<int>("Id")
@@ -89,6 +122,9 @@ namespace academ_sync_back.Migrations
                         .HasColumnType("integer");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<double>("Charge")
+                        .HasColumnType("double precision");
 
                     b.Property<string>("Matter")
                         .IsRequired()
@@ -150,6 +186,17 @@ namespace academ_sync_back.Migrations
                 });
 
             modelBuilder.Entity("academ_sync_back.Models.Course", b =>
+                {
+                    b.HasOne("academ_sync_back.Models.Teacher", "Teacher")
+                        .WithMany()
+                        .HasForeignKey("TeacherId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Teacher");
+                });
+
+            modelBuilder.Entity("academ_sync_back.Models.Seance", b =>
                 {
                     b.HasOne("academ_sync_back.Models.Teacher", "Teacher")
                         .WithMany()
